@@ -1,0 +1,111 @@
+/* styles.css */
+/* เพิ่มสไตล์สำหรับหน้าเว็บไซต์ของคุณที่นี่ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #9eecf8;
+    color: #ffffff;
+    padding: 1px;
+    text-align: center;
+  }
+  .imgheader{
+    margin-left: 2%;
+    float: left;
+    width: 80px; /* กำหนดความกว้าง */
+    height: 80px; /* กำหนดความสูง */
+    border-radius: 10px; /* เพิ่มขอบโค้งให้กับกรอบรูปภาพ */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .productsw { /* เครื่องซัก */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+  align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+  margin-top: 50px; /* ระยะห่างด้านบน */
+  margin-bottom: 50px; /* ระยะห่างด้านล่าง */
+  }
+  .washerh1 { /* ข้อความเครื่องซัก */
+    color: #00c8ff;
+    position: absolute;
+    top: 130px; /* ปรับตำแหน่งตามที่ต้องการ */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .producw { /* กล่องเครื่องซัก */
+    border: 2px solid #07e6ff;
+    padding: 23px;
+    text-align: center;
+  }
+  .imgwasher {
+      width: 100px; /* กำหนดความกว้าง */
+      height: 100px; /* กำหนดความสูง */
+      /* border: 2px solid #07e6ff; เพิ่มกรอบรอบรูปภาพ */
+      border-radius: 10px; /* เพิ่มขอบโค้งให้กับกรอบรูปภาพ */
+  }
+  
+
+  .productsd {  /* เครื่องอบ */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    justify-content: center; /* จัดให้อยู่กลางแนวนอน */
+  align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+  margin-top: 50px; /* ระยะห่างด้านบน */
+  margin-bottom: 50px; /* ระยะห่างด้านล่าง */
+  }
+  .dryersd{ /* ข้อความเครื่องอบ */
+    color: #f20202;
+    
+    position: absolute;
+    top: 480px; /* ปรับตำแหน่งตามที่ต้องการ */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .producd { /* กล่องเครื่องอบ */
+    border: 2px solid #ff0000;
+    padding: 23px;
+    text-align: center;
+  }
+  .imgdryers{
+    width: 100px; /* กำหนดความกว้าง */
+      height: 100px; /* กำหนดความสูง */
+      /* border: 2px solid #07e6ff; เพิ่มกรอบรอบรูปภาพ */
+      border-radius: 10px; /* เพิ่มขอบโค้งให้กับกรอบรูปภาพ */
+  }
+
+  
+  footer {
+    background-color: #f73c3c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .h1 {
+    color: black;
+  }
+  .p1 {
+    color: black;
+  }
+  .f1{
+    size: 200%;
+  }
+  .washerh {
+    color: #07e6ff;
+    position: absolute;
+    top: 105px; /* ปรับตำแหน่งตามที่ต้องการ */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+
