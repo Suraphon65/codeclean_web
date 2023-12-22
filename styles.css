@@ -1,7 +1,10 @@
-/* styles.css */
-/* เพิ่มสไตล์สำหรับหน้าเว็บไซต์ของคุณที่นี่ */
-body {
-  position: fixed;
+  body {
+    position: fixed;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
