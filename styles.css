@@ -119,5 +119,9 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  .how{
+    width: 530px;
+    height: 630px;
+  }
   
 
