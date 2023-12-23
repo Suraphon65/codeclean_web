@@ -79,7 +79,7 @@
   .dryersd{ /* ข้อความเครื่องอบ */
     color: #f20202;
     position: absolute;
-    top: 1380px; /* ปรับตำแหน่งตามที่ต้องการ */
+    top: 1360px; /* ปรับตำแหน่งตามที่ต้องการ */
     left: 50%;
     transform: translateX(-50%);
   }
