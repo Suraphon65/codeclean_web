@@ -2,15 +2,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-/*     
-     position: fixed;  
-    width: 100%;
-    top: 0;
-    left: 0;
-     z-index: 1000; 
-    font-family: Arial, sans-serif;
-     margin: 0;
-    padding: 0;  */
+
   }
   
   header {
@@ -124,10 +116,10 @@
   }
   
 
-  body {
+  /* body {
     margin: 0;
     overflow: hidden;
-  }
+  } */
   
   canvas {
     display: block;
