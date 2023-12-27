@@ -158,3 +158,26 @@
     transform: translateY(100vh);
   }
 }
+
+/* Existing CSS styles remain unchanged */
+
+.santa-run {
+  position: fixed;
+  top: 20px; /* Adjust the top position as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  animation: moveLeft 5s linear infinite;
+}
+
+.santa-img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+}
+@keyframes moveLeft {
+  0% {
+    transform: translateX(0.10%);
+  }
+  100% {
+    transform: translateX(-500%); /* Move to the left */
+  }
+}
